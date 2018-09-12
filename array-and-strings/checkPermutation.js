@@ -26,4 +26,23 @@ const checkPermutation = (str1, str2) => {
   return true;
 };
 
+const checkPermutation = (str1, str2) => {
+  // if the lengths of str1 and str2 are not equal,
+  // return false;
+  if (str1.length !== str2.length) {
+    return false;
+  }
+  // if the lengths are same,
+  // sort the strings
+  const sortedStr1 = str1
+    .split('')
+    .sort()
+    .join('');
+  const sortedStr2 = str2
+    .split('')
+    .sort()
+    .join('');
+  return sortedStr1 === sortedStr2;
+};
+
 console.log(checkPermutation('GOD', 'DoG'));
