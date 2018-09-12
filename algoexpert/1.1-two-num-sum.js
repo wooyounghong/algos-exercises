@@ -16,7 +16,7 @@ const twoNumberSum = (array, targetSum) => {
       if (firstNum + secondNum === targetSum) {
         // return the sorted pair of nums;
         return [firstNum, secondNum].sort((a, b) => {
-          a - b;
+          return a - b;
         });
       }
     }
@@ -24,4 +24,4 @@ const twoNumberSum = (array, targetSum) => {
   return output;
 };
 
-console.log(twoNumbersSum([3, 5, -4, 8, 11, 1, -1, 6], 10));
+console.log(twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10));
