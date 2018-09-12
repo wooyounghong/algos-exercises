@@ -14,6 +14,21 @@ const isUnique = string => {
   return true;
 };
 
+// no data structures
+
+const isUnique = string => {
+  for (let i = 0; i < string.length; i++) {
+    for (let j = i + 1; j < string.length; j++) {
+      // if match,
+      // return false;
+      if (string[i] === string[j]) {
+        return false;
+      }
+    }
+  }
+  return true;
+};
+
 // test cases:
 
 console.log(isUnique('hello'));
