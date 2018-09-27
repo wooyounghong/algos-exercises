@@ -10,7 +10,7 @@ example:
      output: "cat"
 */
 
-const evenOccurence = arr => {
+const evenOccurrence = arr => {
   const hash = {};
   arr.forEach(item => {
     hash.hasOwnProperty(item) ? hash[item]++ : (hash[item] = 1);
@@ -24,5 +24,5 @@ const evenOccurence = arr => {
   return null;
 };
 
-// console.log(evenOccurence([1, 3, 3, 3, 2, 4, 4, 2, 5])); // expected output : 2;
-console.log(evenOccurence(['cat', 'dog', 'dig', 'cat'])); // expected output: 'cat';
+// console.log(evenOccurrence([1, 3, 3, 3, 2, 4, 4, 2, 5])); // expected output : 2;
+console.log(evenOccurrence(['cat', 'dog', 'dig', 'cat'])); // expected output: 'cat';
