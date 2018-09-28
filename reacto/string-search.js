@@ -1,5 +1,5 @@
 // # Prompt
-
+////// REIMPLEMENT INDEXOF
 // You are attempting to find the index of the first appearance of one string (the needle) inside of another (the haystack).
 
 // ---
