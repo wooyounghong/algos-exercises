@@ -3,5 +3,8 @@
 // Challenge: Do this in O(m x n) time, where m, n are the respective lengths of str1 and str2.
 
 function editDistance(str1, str2) {
+  // start a count variable
+  let count = 0;
+}
 
-};
+console.log(editDistance('cat', 'cut'));

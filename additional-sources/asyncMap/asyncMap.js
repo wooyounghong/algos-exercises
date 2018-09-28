@@ -38,6 +38,4 @@
  *
  */
 
-
-var asyncMap = function(tasks, callback) {
-};
+var asyncMap = function(tasks, callback) {};
